@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+  <title></title>
+  <style type="text/css">
+    *{
+    margin:0;
+    padding:0;
+     }
+    body{
+        background-image: url(gov1.jpg);
+        background-position:center;
+        background-size:cover;
+        font-family:sans-serif;
+        margin-top:40px;
+        }
+    .regform{
+            width:800px;
+            background-color:rgb(0,0,0.6);
+            margin:auto;
+            color:#FFFFFF;
+            padding:10px 0px 10px 0px;
+            text-align:center;
+            border-radius:15px 15px 0px 0px;
+    }
+    .main{
+            width:800px;
+            margin:auto;
+    }
+    form{
+        padding:10px;
+    }
+#name{
+    width:100%;
+    height:100px;
+}
+.name{
+     margin-left:25px;
+     margin-top:30px;
+     width:125px;
+     color:white;
+     font-size:18px;
+     font-weight:700;
+}    
+.firstname{
+           position:relative;
+           left:280px;
+           top:-37px;
+           line-height:40px;
+           border-radius:6px;
+           padding:0 22px;
+           font-size:16px;
+}
+  
+  </style>
+</head>
+<body>
+    <div class="regform"><h1>SIGN IN</h1> </div>
+    <div class="main">
+        <form>
+            <div class="name" id="name">
+            <label for="firstname" class ="firstlabel"><h1>UserName</h1></label><input class="firstname" type ="text" name="firstname" id="firstname" pattern="[a-zA-Z ]{3,45}" placeholder="abc@email.com" required="required" title="enter your firstname here use only alphabets with min len 3" ><br>
+            
+            
+        
+            
+            <label for="password" class ="firstlabel"><h1>Password</h1></label><input class="firstname" type ="password" name="password" maxlength="25"><br>
+            
+            <button type="submit">Forgot Password</button>             
+            
+            <button type="submit">Sign In</button>
+            
+            
+            </div>
+        </form>
+    </div>
+</body>
+</html>
